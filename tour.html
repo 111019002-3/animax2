@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhotoTour 旅遊攝影網 :: 歡迎愛旅遊愛攝影的你 ::</title>
+<link href="css/website.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<!-- <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script> -->
+<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+<style type="text/css"></style>
+<link href="css/bootstrap-3.3.4.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.datepicker.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script> 
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_setTextOfLayer(objId,x,newText) { //v9.0
+  with (document) if (getElementById && ((obj=getElementById(objId))!=null))
+    with (obj) innerHTML = unescape(newText);
+}
+function MM_DW_effectScale(obj,method,effect,dir,originY,originX,per,size,speed)
+{
+    obj[method](effect, { direction: dir, origin: [originY, originX], percent: per, scale: size }, speed);
+}
+function MM_DW_effectFade(obj,method,effect,speed)
+{
+    obj[method](effect, {}, speed);
+}
+</script>
+</head>
+
+<body>
+<header> <a href="index.html"><img class="logo" src="images/title.jpg" width="450" height="125" alt=""/></a>
+  <nav>
+    <ul id="menu">
+      <li class="about"><a href="about.html"><span>ABOUT US</span></a></li>
+      <li class="tour"></li>
+      <li class="photo"><a href="photo.html"><span>PHOTOGRAPHY</span></a></li>
+    </ul>
+  </nav>
+</header>
+<div id="carousel1" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel1" data-slide-to="1"></li>
+    <li data-target="#carousel1" data-slide-to="2"></li>
+    <li data-target="#carousel1" data-slide-to="3"></li>
+	<li data-target="#carousel1" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active"><img src="images/horse3.jpg" alt="First slide image" class="center-block"> </div>
+    <div class="item"><img src="images/horse2.jpg" alt="Second slide image" class="center-block"> </div>
+    <div class="item"><img src="images/horse1.jpg" alt="Third slide image" class="center-block"> </div>
+	<div class="item"><img src="images/horse4.jpg" alt="Fourth slide image" class="center-block"> </div>
+	<div class="item"><img src="images/horse5.jpg" alt="Fifth slide image" class="center-block"> </div>
+  </div>
+  <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+<div id="mainContent">
+  <div id="tourbox1">
+    <div class="topictitle1"><img src="images/find.jpg" width="250" height="85" alt=""/></div>
+    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+      
+      
+		 <button type="button" class="btn btn-default" onClick="MM_goToURL('parent','https://www.mhgui.com/list/lianzai/update.html');return document.MM_returnValue">最近更新漫畫</button>
+      <button type="button" class="btn btn-default" onClick="MM_goToURL('parent','https://www.mhgui.com/list/wanjie/update.html');return document.MM_returnValue">最近完結漫畫</button>
+		
+    </div>
+    <p>&nbsp;</p>
+   
+  </div>
+	
+  <div id="tourbox2">
+    <div id="Tabs1">
+      <ul>
+        <li><a href="#tabs-1">主流王道熱血漫畫</a></li>
+        <li><a href="#tabs-2">非主流邪道漫畫</a></li>
+      </ul>
+      <div id="tabs-1">
+        <div class="row">
+			
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/mine/main1.jpg" alt="Thumbnail Image 1" width="180" height="180">
+              <div class="caption">
+                <h3>排球少年</h3>
+                <p class="tourdate"> 2012/2/20 - 2020/7/20</p>
+                <p><a href="#" class="btn btn-primary" onClick="MM_setTextOfLayer('rock1','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;「排球少年」講述的是一名雖然身高矮小，但卻熱愛排球的少年的故事，主角日向翔陽與影山飛雄，一同在烏野高中排球社努力奮鬥，最後與隊友一起打進全國大賽。&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;')" role="button">漫畫介紹</a><a href="#" class="btn btn-default" onClick="MM_setTextOfLayer('rock1','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;本作的作者古館春一老師將學生的青春描寫得淋漓盡致，不像其他運動漫畫，在本作的高中社團內，沒有一個人是配角，即便是個平凡人，也有自己能做到的事，隊伍中的每個人彼此互助，有時爭吵、有時歡笑，卻為共同的目標而努力，不曾停下前進的腳步。')" role="button">私心評價</a></p>
+				  <div id="rock1">        </div>
+              </div>
+				
+            </div>
+          </div>
+			
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/mine/main2.jpg" alt="Thumbnail Image 1" width="225" height="180">
+              <div class="caption">
+                <h3>我的英雄學院&nbsp;</h3>
+               <p class="tourdate">2014/7/7-連載中</p>		
+                <p><a href="#" class="btn btn-primary" onClick="MM_setTextOfLayer('rock2','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;這是一部以青春熱血超能力與學院生活為主軸的漫畫，身為普通人的主角卻想成為最棒的英雄，並以與最強英雄「歐爾麥特」的相遇為起點，展開一場史詩級的追夢之旅。')"  role="button">漫畫介紹</a>
+					<a href="#" class="btn btn-default" onClick="MM_setTextOfLayer('rock2','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;總體來說這是一部十分熱血的漫畫，尤其是「歐爾麥特」對主角說的那句:「你可以成為英雄」真的讓人熱淚盈眶，雖然反派的塑造缺乏魅力，設定也有些小瑕疵，但不妨害這部漫畫獲得高評價。')" role="button">私心評價</a></p>	
+				  <div id="rock2">        </div>
+				  	  
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/mine/main3.jpg" alt="Thumbnail Image 1" width="180" height="180">
+              <div class="caption">
+                <h3>鑽石王牌</h3>
+                <p class="tourdate">2006/2/24 - 連載中</p>
+                <p><a href="#" class="btn btn-primary" onClick="MM_setTextOfLayer('rock3','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;主角澤村榮純被棒球名校青道高中物色，離開家鄉前去東京，遇上了新的隊友，經歷失敗、品嘗淚水，即便滿身泥濘，也要努力奔向甲子園。&amp;nbsp;&amp;nbsp;&amp;nbsp;')" role="button">漫畫介紹</a><a href="#" class="btn btn-default" onClick="MM_setTextOfLayer('rock3','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;本書節奏緩慢，但也因此將每位角色的個性都塑造的格外鮮明飽滿，無論是誰都有不能輸的理由，即便是主角也不是一職順風順水，有失意的時候、也有沮喪的時候，但每次都會在身邊友人的鼓勵下，再次站起來，繼續朝夢想拚搏。')" role="button">私心評價</a></p>
+				  <div id="rock3">        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tabs-2">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/mine/unmain1.jpg" alt="Thumbnail Image 1"  height="180">
+              <div class="caption">
+                <h3>炎拳</h3>
+                <p class="tourdate">2016/4/18 - 2018/1/1</p>
+                <p><a href="#" class="btn btn-primary" onClick="MM_setTextOfLayer('rock4','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;主角阿格尼與露娜是擁有再生能力的祝福者，有一天卻被一位能放出永不熄滅的火焰的祝福者襲擊，露娜身死，阿格尼的身體卻在多年的燃燒與火焰的力量達成平衡，為了替妹妹報仇而踏上旅程。&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;')" role="button">漫畫介紹</a><a href="#" class="btn btn-default" onClick="MM_setTextOfLayer('rock4','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;本作雖說是以報仇為主線的漫畫，但途中主角卻經歷了各種看是好笑實則驚悚的事件，甚至把與妹妹長得相像的仇人當成妹妹，甚至想就這樣過此餘生，深刻的描繪出主角也只是個普通人，之所以能忍受火焰的激痛與心傷，只不過是妹妹死前對他說的「活下去」，這也成了他的詛咒。&amp;nbsp; &amp;nbsp; ')" role="button">私心評價</a></p>
+				  <div id="rock4">        </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/mine/unmain2.jpg" alt="Thumbnail Image 1" width="149" height="180">
+              <div class="caption">
+                <h3>薔薇園傳奇</h3>
+                <p class="tourdate">2020/3/3 - 連載中</p>
+                <p><a href="#" class="btn btn-primary" onClick="MM_setTextOfLayer('rock5','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;本書大致圍繞著一位少女為了掌握自己的命運、也為了追隨他所傾慕之人，手持寄宿著英雄亡魂的魔劍，前去參加強者雲集的薔薇園武道會。&amp;nbsp;&amp;nbsp;&amp;nbsp;')" role="button">漫畫介紹</a><a href="#" class="btn btn-default" onClick="MM_setTextOfLayer('rock5','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;本書以搞笑漫畫為主體，其中又參雜許多下流的性暗示與性器外露，但這卻絲毫不顯色情，反而為劇情增添許多笑點，雖然佔比極少，但劇中也參雜些許感情的流露與感動人心的橋段，凸顯出本書的深度，可說是神來之筆。&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;')" role="button">私心評價</a></p>
+				  <div id="rock5">        </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail"><img src="images/mine/unmain3.jpg" alt="Thumbnail Image 1" width="220"  height="180">
+              <div class="caption">
+                <h3>墮落jk與廢人教師</h3>
+                <p class="tourdate">2018/2/20 - 連載中</p>
+                <p><a href="#" class="btn btn-primary" onClick="MM_setTextOfLayer('rock6','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;本書是在講述一位試圖自殺的少女被一名頹廢的教師所救，兩人以此為契機交往，兩人的感情越加深厚、少女也交到許多朋友，同時老師的過往也漸漸浮出水面。&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;')" role="button">漫畫介紹</a><a href="#" class="btn btn-default" onClick="MM_setTextOfLayer('rock6','','&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;本書以師生不倫之戀為主軸，雖然不符合社會道德，但卻十分感人，書中少女原本孤單一人，在老師的幫助下交到了新朋友，雖然內容陰暗，但情節並不憂鬱，反而十分歡樂，隨著劇情進展，兩人的愛情更是令人動容。&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;')" role="button">私心評價</a></p>
+				  <div id="rock6">        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+  <div class="clear"></div>
+</div>
+<footer></footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Datepicker1" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker2" ).datepicker(); 
+});
+</script>
+</body>
+</html>
